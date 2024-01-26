@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:stretchColumns="*">
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_column="0"
+        android:gravity="left"
+        android:layout_span="1"
+        android:paddingLeft="3dp"
+        android:text="1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/tvCODE"
+        android:layout_column="1"
+        android:gravity="left"
+        android:layout_span="5"
+        android:padding="5sp"
+        android:text="CODE"
+        android:textColor="@android:color/black"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/tvDESCRIPTIOIN"
+        android:layout_column="2"
+        android:gravity="left"
+        android:layout_span="11"
+        android:padding="5sp"
+        android:text="DESCRIPTIOIN"
+        android:textColor="@android:color/black"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/tvPRICE"
+        android:layout_column="3"
+        android:gravity="left"
+        android:layout_span="5"
+        android:padding="5sp"
+        android:textColor="@android:color/black"
+        android:text="PRICE"
+        android:textStyle="bold">
+    </TextView>
+</TableRow>
+</TableLayout>

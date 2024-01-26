@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:background="@android:color/transparent"
+    android:stretchColumns="*">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue1">
+        <TextView
+            android:id="@+id/tvIndex"
+            android:layout_column="0"
+            android:gravity="left"
+            android:layout_span="1"
+            android:paddingLeft="3dp"
+            android:textColor="@android:color/black"
+            android:text=" ▼"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_column="1"
+            android:padding="5sp"
+            android:gravity="left"
+            android:text="▼DATE"
+            android:layout_span="5"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_column="2"
+            android:layout_span="4"
+            android:gravity="left"
+            android:padding="5sp"
+            android:text="▼TIME"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTrans"
+            android:layout_column="3"
+            android:padding="5sp"
+            android:gravity="left"
+            android:text="▼TRANS#"
+            android:layout_span="5"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_column="4"
+            android:padding="5sp"
+            android:gravity="left"
+            android:text="▼AMOUNT"
+            android:layout_span="5"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvTransType"
+            android:layout_column="5"
+            android:padding="5sp"
+            android:gravity="left"
+            android:text="▼TRANS TYPE"
+            android:layout_span="5"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvTypeRef"
+            android:layout_column="6"
+            android:padding="5sp"
+            android:gravity="left"
+            android:text="▼TYPE REF"
+            android:layout_span="5"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_column="7"
+            android:padding="5sp"
+            android:gravity="left"
+            android:text="▼USER"
+            android:layout_span="5"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </TableRow>
+</TableLayout>

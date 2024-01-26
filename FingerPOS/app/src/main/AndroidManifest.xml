@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wolf.fingerpos">
+
+    <application
+        android:name=".POSApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:windowSoftInputMode="stateAlwaysHidden"
+        android:theme="@style/AppTheme.NoTitle">
+        <activity android:name=".SignInActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".SalesActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".ReportsActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".ReportsInfoActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".MenuActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".MenuManageActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".AccountActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".AccountManageActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".AccountPrepayActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".AccountPostpaidActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".SettingsActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".UserManageActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".ItemDetailActivity"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FingerPOS</string>
+
+    <string-array name="users">
+        <item>All Tellers</item>
+    </string-array>
+
+    <string-array name="customer_type">
+        <item>GUEST</item>
+        <item>RESIDENT STUDENT</item>
+        <item>NON RESIDENT STUDENT</item>
+        <item>STAFF</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>ONLINE</item>
+        <item>OFFLINE</item>
+    </string-array>
+
+    <string-array name="account_types">
+        <item>PAYE</item>
+        <item>BORDER</item>
+    </string-array>
+
+    <string-array name="user_type">
+        <item>MAIN ADMIN</item>
+        <item>LECTURE</item>
+        <item>STAFF</item>
+    </string-array>
+
+    <string-array name="pay_mode">
+        <item>CASH</item>
+        <item>CREDIT</item>
+        <item>MPESA</item>
+        <item>PREPAID</item>
+        <item>POSTPAID</item>
+    </string-array>
+
+</resources>

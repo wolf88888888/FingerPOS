@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/light_blue1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:onClick="onBack">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:padding="5dp"
+                android:src="@mipmap/btn_back"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/logo_0"/>
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/logo_1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_background_selectblue"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingEnd="60dp"
+            android:paddingStart="60dp"
+            android:paddingTop="40dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:text="Cashier/Teller:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spUsers"
+                    android:layout_width="275dp"
+                    android:layout_height="35dp"
+                    android:background="@mipmap/custom_spinner"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="40dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:text="From:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etFrom"
+                    android:layout_width="290dp"
+                    android:layout_height="35dp"
+                    android:background="@mipmap/custom_date_picker"
+                    android:singleLine="true"
+                    android:focusable="false"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="60dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:text="To:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etTo"
+                    android:layout_width="290dp"
+                    android:layout_height="35dp"
+                    android:background="@mipmap/custom_date_picker"
+                    android:singleLine="true"
+                    android:focusable="false"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="60dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/round_button_deepblue"
+                    android:onClick="onOK"
+                    android:text="OK"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/round_button_deepblue"
+                    android:onClick="onCancel"
+                    android:text="Cancel"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
